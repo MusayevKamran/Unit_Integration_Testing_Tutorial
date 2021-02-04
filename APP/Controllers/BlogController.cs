@@ -30,7 +30,7 @@ namespace APP.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return RedirectToAction("Index");
             }
 
             var blog = await _blogRepository.GetByIdAsync(id);
