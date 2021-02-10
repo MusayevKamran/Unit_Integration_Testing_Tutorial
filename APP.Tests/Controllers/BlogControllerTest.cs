@@ -2,10 +2,8 @@
 using APP.Models;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using APP.Repositorys.Interfaces;
 using Xunit;
@@ -23,7 +21,7 @@ namespace APP.Tests.Controllers
             _mockBlogRepository = new Mock<IBlogRepository>();
             _blogController = new BlogController(_mockBlogRepository.Object);
             _blogs = new List<Blog> {
-                                                    new Blog{Id = 1,Title="c# Tutorial 1",Content="This is firt Blog",CategoryId =1},
+                                                    new Blog{Id = 1,Title="c# Tutorial 1",Content="This is first Blog",CategoryId =1},
                                                     new Blog{Id = 2,Title="c# Tutorial 2",Content="This is second Blog",CategoryId =1},
                                                     new Blog{Id = 3,Title="c# Tutorial 3",Content="This is third Blog",CategoryId =1}
                                                 };

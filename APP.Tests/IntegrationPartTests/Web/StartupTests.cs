@@ -1,21 +1,13 @@
-﻿using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using APP.Repositorys.Interfaces;
+﻿using APP.Repositorys.Interfaces;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Protocols;
 using Xunit;
 
-namespace APP.Tests
+namespace APP.Tests.IntegrationPartTests.Web
 {
 
     public class StartupTests
     {
-
 
         [Fact]
         public void ServiceExtensions_RegisterServices_IsServicesRegistered()

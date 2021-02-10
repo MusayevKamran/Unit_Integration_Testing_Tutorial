@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Xunit;
 
-namespace APP.Tests.IntegrationTests.Web
+namespace APP.Tests.IntegrationPartTests.Web
 {
     public class AppsettingsTest
     {
