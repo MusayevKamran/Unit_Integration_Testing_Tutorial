@@ -29,6 +29,7 @@ namespace APP
             services.AddDbContext<BlogContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BlogDbContextConnection")));
             services.RegisterServices();
 
+            services.AddHealthChecks();
             services.AddControllersWithViews();
         }
 
@@ -54,6 +55,8 @@ namespace APP
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapHealthChecks("/healthcheck");
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
