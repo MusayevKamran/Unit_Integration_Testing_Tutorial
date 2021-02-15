@@ -28,7 +28,7 @@ namespace APP.Tests.Controllers
         }
 
         [Fact]
-        public async Task Intex_ActionExecute_ReturnView()
+        public async Task Index_ActionExecute_ReturnView()
         {
             var result = await _blogController.Index();
 
@@ -130,7 +130,7 @@ namespace APP.Tests.Controllers
             _mockBlogRepository.Setup(repo => repo.Create(It.IsAny<Blog>()))
                                              .Callback<Blog>(val => newBlog = val);
 
-            var result = await _blogController.Create(_blogs.First());
+            await _blogController.Create(_blogs.First());
 
             _mockBlogRepository.Verify(repo => repo.Create(It.IsAny<Blog>()), Times.Once);
 
@@ -142,9 +142,9 @@ namespace APP.Tests.Controllers
         {
             _blogController.ModelState.AddModelError("Name", "");
 
-            var result = await _blogController.Create(It.IsAny<Blog>());
+            await _blogController.Create(It.IsAny<Blog>());
 
-            _mockBlogRepository.Verify(repo => repo.Create(It.IsAny<Blog>()), Times.Never);
+            _mockBlogRepository.Verify(repo => repo.Create(It.IsAny<Blog>()), Times.Never); 
         }
 
         [Fact]
@@ -195,7 +195,7 @@ namespace APP.Tests.Controllers
 
             _mockBlogRepository.Setup(repo => repo.GetByIdAsync(blogId)).ReturnsAsync(blog);
 
-            var result = await _blogController.Edit(blogId);
+            await _blogController.Edit(blogId);
 
             _mockBlogRepository.Verify(repo => repo.GetByIdAsync(blogId), Times.Once);
 

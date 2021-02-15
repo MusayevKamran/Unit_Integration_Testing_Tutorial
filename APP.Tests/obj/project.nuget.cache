@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WWNq6cPSlw6FHQv8Ah6y78JiETAK+2dG6owTAJTGdgnMhyRH0drJzEhb3VBQTu+OLktCIdcG3Fk68wndycNMiw==",
+  "dgSpecHash": "W+MIaJWWfHTxbP2y+AaslvmOLaU1e1KwL3EU1rD2kPGGGI8gP5ml7W9QnQ1gF9hEUsdcgN3ytBPkzo13NPYPgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ITGAz.Dev.Kamran\\source\\repos\\APP_Testing_Tutorial\\APP.Tests\\APP.Tests.csproj",
   "expectedPackageFiles": [
@@ -77,6 +77,7 @@
     "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.5.0\\microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
     "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
+    "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.4\\microsoft.visualstudio.web.codegeneration.3.1.4.nupkg.sha512",
     "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.4\\microsoft.visualstudio.web.codegeneration.contracts.3.1.4.nupkg.sha512",
     "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.4\\microsoft.visualstudio.web.codegeneration.core.3.1.4.nupkg.sha512",

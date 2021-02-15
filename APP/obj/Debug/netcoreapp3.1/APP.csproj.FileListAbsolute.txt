@@ -177,4 +177,5 @@ C:\Users\ITGAz.Dev.Kamran\source\repos\APP_Testing_Tutorial\APP\bin\Debug\netcor
 C:\Users\ITGAz.Dev.Kamran\source\repos\APP_Testing_Tutorial\APP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\ITGAz.Dev.Kamran\source\repos\APP_Testing_Tutorial\APP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\ITGAz.Dev.Kamran\source\repos\APP_Testing_Tutorial\APP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\ITGAz.Dev.Kamran\source\repos\APP_Testing_Tutorial\APP\obj\Debug\netcoreapp3.1\APP.csprojAssemblyReference.cache
+C:\Users\ITGAz.Dev.Kamran\source\repos\APP_Testing_Tutorial\APP\obj\Debug\netcoreapp3.1\APP.Properties.Resources.resources
+C:\Users\ITGAz.Dev.Kamran\source\repos\APP_Testing_Tutorial\APP\obj\Debug\netcoreapp3.1\APP.csproj.GenerateResource.cache
